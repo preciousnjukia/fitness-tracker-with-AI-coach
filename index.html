@@ -8,54 +8,69 @@
 </head>
 <body>
 <header>
+    <img src="data:image/png;base64,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" alt="photo">
     <h1>
         Fitness Tracker With AI Coach
     </h1>
 </header>
+<section id="intro">
+    Welcome to your fitness journey! Reach your goal in just a matter of time with the help of an AI coach!
+</section>
 <main>
+    <div id="ai-coach-chat">
+    
+        <form id="fitness-form">
+            <label for="fitness-goal">What is your fitness goal?</label>
+            <input type="text" id="fitness-goal" required>
+            <button type="submit">Get Workout suggestions</button>
+        </form>
+        <h2>AI Coach</h2>
+        <div id="chat-messgaes">
+            <div class="chat-message ai">
+                <p>Hi there! I'm your AI coach. How can I assist you with your fitness goals?</p>
+            </div>
+            <div class="chat-message user">
+                <p>I want to build muscle and improve my strength.</p>
+            </div>
+            <div class="chat-message ai">
+                <p>Great! Let's create a personalized workout plan for you. Stay tuned!</p>
+            </div>
+        </div>
+    </div>
+</main>
     <div id="exercise-list">
         <div class="exercise-card">
             <h2>Jog in Place</h2>
-            <p>Let's start easy. We will jog lightly in place
+             <p>Let's start easy. We will jog lightly in place
                 Maintain the pace for 1 min.
             </p>
+            <img src="https://media.tenor.com/-Rk4PkNwhmoAAAAC/running-spot-jog.gif" alt="jogging in place">
         </div>
         <div class="exercise-card">
-            <h2>Arm circles</h2>
-            <p>Now let's do some arm circles.First amke sure to be standing apart.
-                We shall do arm circles forward for 30 seconds then backward circles for 30 seconds.
+            <h2>Star Jumps</h2>
+            <p>Now let's do some star jumps.This exercise involves the whole body.
+                We shall jump for 30 seconds.
             </p>
+            <img src="https://media.tenor.com/WR6yv2M2XxoAAAAM/star-jump-exercise.gif" alt="star jumps demostration">
         </div>
         <div class="exercise-card">
             <h2>Push ups</h2>
             <p>Now let's build some upper strength.
                 We shall do this for 1 min.
             </p>
+            <img src="https://media.tenor.com/gI-8qCUEko8AAAAC/pushup.gif" alt="push ups demostration">
         </div>
         <div class="exercise-card">
             <h2>Squats</h2>
             <p>Now let's build some lower body strength.
                 We shall do this for 1 min.
             </p>
+            <img src="https://media.tenor.com/5z4q0v91sNYAAAAC/squats-exercise.gif" alt="squats demostration"
         </div>
 
     </div>
-    <div id="ai-coach-chat">
-        <h2>AI coach chat</h2>
-        <form id="fitness-form">
-            <label for="fitness-goal">What is your fitness goal?</label>
-            <input type="text" id="fitness-goal" required>
-            <button type="submit">Get Workout suggestions</button>
-        </form>
-        <div id="chat-messgaes">
-
-        </div>
-    </div>
-</main>
-
-
 <footer>
-    <p>&copy; 2023 Precious NJUKIA</p>
+    <p>&copy; 2023 Fitness Tracker with AI Coach</p>
 </footer>
 
 
