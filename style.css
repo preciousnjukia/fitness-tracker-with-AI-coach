@@ -30,7 +30,12 @@
   main {
     padding: 2rem;
   }
-  
+  p.begin {
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+  }
   .exercise-card {
     background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
     border-radius: 8px;
