@@ -1,23 +1,24 @@
 [
-    {
-      "name": "Jog in Place",
-      "description": "Let's start easy. We will jog lightly in place. Maintain the pace for 1 min.",
-      "likes": 10
-    },
-    {
-      "name": "Star Jumps",
-      "description": "Now let's do some star jumps. This exercise involves the whole body. We shall jump for 30 seconds.",
-      "likes": 15
-    },
-    {
-      "name": "Push ups",
-      "description": "Now let's build some upper strength. We shall do this for 1 min.",
-      "likes": 8
-    },
-    {
-      "name": "Squats",
-      "description": "Now let's build some lower body strength. We shall do this for 1 min.",
-      "likes": 5
-    }
+  {
+    "name": "Jog in Place",
+    "description": "Let's start easy. We will jog lightly in place. Maintain the pace for 1 min.",
+    "imageUrl": "https://media.tenor.com/-Rk4PkNwhmoAAAAC/running-spot-jog.gif"
+  },
+  {
+    "name": "Star Jumps",
+    "description": "Now let's do some star jumps. This exercise involves the whole body. We shall jump for 30 seconds.",
+    "imageUrl": "https://media.tenor.com/WR6yv2M2XxoAAAAM/star-jump-exercise.gif"
+  },
+  {
+    "name": "Push ups",
+    "description": "Now let's build some upper body strength. We shall do this for 1 min.",
+    "imageUrl": "https://media.tenor.com/gI-8qCUEko8AAAAC/pushup.gif"
+  },
+  {
+    "name": "Squats",
+    "description": "Now let's build some lower body strength. We shall do this for 1 min.",
+    "imageUrl": "https://media.tenor.com/5z4q0v91sNYAAAAC/squats-exercise.gif"
+  }
 ]
+
   
