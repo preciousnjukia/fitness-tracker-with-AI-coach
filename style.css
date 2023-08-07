@@ -47,6 +47,7 @@
     border: 1px solid green;
     border-radius: 5px;
 }
+
 h3 {
   display: block;
   text-align: center;
@@ -101,12 +102,6 @@ h3 {
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
-  }
-  
-  #fitness-form label,
-  #fitness-form input,
-  #fitness-form button {
-    margin-bottom: 1rem;
   }
   
   #chat-messages {
