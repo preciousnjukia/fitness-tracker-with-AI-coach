@@ -34,29 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
       description.textContent = exercise.description;
       card.appendChild(description);
   
-      const likeButton = document.createElement('button');
-      likeButton.textContent = 'Like';
-      likeButton.addEventListener('click', () => {
-        // Update the "likes" count (this is just an example, won't persist after page reload)
-        exercise.likes = (exercise.likes || 0) + 1;
-        // Update the UI with the new "likes" count
-        updateLikesCount(card, exercise.likes);
-      });
-      card.appendChild(likeButton);
-  
-      const likesCount = document.createElement('span');
-      likesCount.textContent = exercise.likes || 0;
-      card.appendChild(likesCount);
-  
       return card;
     }
-  
-    // Function to update the "likes" count on the UI
-    function updateLikesCount(card, likes) {
-      const likesCount = card.querySelector('span');
-      likesCount.textContent = likes;
-    }
   });
+  
   document.addEventListener("DOMContentLoaded", () => {
     const profileForm = document.getElementById("profile-form");
     const progressCanvas = document.getElementById("progressCanvas");
