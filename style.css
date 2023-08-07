@@ -97,13 +97,7 @@ h3 {
     color: #fff;
     align-self: flex-end;
   }
-  #fitness-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  
+    
   #chat-messages {
     margin-top: 1rem;
   }
