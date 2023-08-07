@@ -1,19 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch data from the JSON Server
-    fetch('http://localhost:3000/exercises') // Update the URL with your JSON Server URL
+    fetch('http://localhost:3000/exercises') 
       .then(response => response.json())
       .then(data => {
-        // Process the data and update the UI
+      
         const exerciseList = document.getElementById('exercise-list');
   
-        // Check if the data contains exercises
         if (data && data.length > 0) {
           data.forEach(exercise => {
             const exerciseCard = createExerciseCard(exercise);
             exerciseList.appendChild(exerciseCard);
           });
         } else {
-          // Handle the case when there are no exercises
+
           exerciseList.innerHTML = '<p>No exercises found.</p>';
         }
       })
@@ -37,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return card;
     }
   });
-  
+
   document.addEventListener("DOMContentLoaded", () => {
     const profileForm = document.getElementById("profile-form");
     const progressCanvas = document.getElementById("progressCanvas");
