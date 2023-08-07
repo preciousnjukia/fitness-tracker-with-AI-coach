@@ -41,6 +41,41 @@
   <p class="begin"><em> 
     HERE ARE SOME SIMPLE WORKOUTS YOU CAN TRY OUT
   </em></p>
+  <section id="user-profile">
+    <h2>User Profiles</h2>
+    <form id="profile-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        <label for="fitness-goal">Fitness Goal:</label>
+        <input type="text" id="fitness-goal" required>
+        <button type="submit">Create Profile</button>
+    </form>
+    <div id="progress-chart">
+        <canvas id="progressCanvas"></canvas>
+    </div>
+</section>
+
+<section id="workout-plans">
+    <h2>Interactive Workout Plans</h2>
+    <form id="workout-plan-form">
+        <label for="fitness-level">Select Fitness Level:</label>
+        <select id="fitness-level">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        <label for="workout-preferences">Select Workout Preferences:</label>
+        <input type="checkbox" id="cardio"> Cardio
+        <input type="checkbox" id="strength"> Strength
+        <input type="checkbox" id="flexibility"> Flexibility
+        <button type="submit">Generate Workout</button>
+    </form>
+    <div id="dynamic-workout">
+
+    </div>
+</section>
     <div id="exercise-list">
         <div class="exercise-card">
             <h2>Jog in Place</h2>
