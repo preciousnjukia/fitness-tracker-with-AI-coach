@@ -47,6 +47,11 @@
     border: 1px solid green;
     border-radius: 5px;
 }
+h3 {
+  display: block;
+  text-align: center;
+  text-decoration: solid;
+}
   .exercise-card {
     background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
     border-radius: 8px;
